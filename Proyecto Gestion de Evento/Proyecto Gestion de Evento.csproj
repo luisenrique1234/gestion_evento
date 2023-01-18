@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B77D45C3-8D55-4DCC-8601-8438EBE76BA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto_Gestion_de_Evento</RootNamespace>
+    <AssemblyName>Proyecto Gestion de Evento</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buscar-Expositor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar-Expositor.Designer.cs">
+      <DependentUpon>Buscar-Expositor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda-Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda-Evento.Designer.cs">
+      <DependentUpon>Busqueda-Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda-Participante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda-Participante.Designer.cs">
+      <DependentUpon>Busqueda-Participante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta-Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta-Evento.Designer.cs">
+      <DependentUpon>Consulta-Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta-Expositor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta-Expositor.Designer.cs">
+      <DependentUpon>Consulta-Expositor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta-Participante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta-Participante.Designer.cs">
+      <DependentUpon>Consulta-Participante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_Realizacion_Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Realizacion_Evento.Designer.cs">
+      <DependentUpon>Consulta_Realizacion_Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1DetallesEvento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1DetallesEvento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1Participante.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1Participante.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEvento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEvento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetExpositor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetExpositor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Descripsion-de-Envto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Descripsion-de-Envto.Designer.cs">
+      <DependentUpon>Descripsion-de-Envto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento-Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento-Evento.Designer.cs">
+      <DependentUpon>Mantenimiento-Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento-Expocitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento-Expocitor.Designer.cs">
+      <DependentUpon>Mantenimiento-Expocitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento-Participante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento-Participante.Designer.cs">
+      <DependentUpon>Mantenimiento-Participante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="miinstruccion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Realizacion-de-Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realizacion-de-Evento.Designer.cs">
+      <DependentUpon>Realizacion-de-Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro de Partipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro de Partipante.Designer.cs">
+      <DependentUpon>Registro de Partipante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro-Expositor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro-Expositor.Designer.cs">
+      <DependentUpon>Registro-Expositor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte-Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte-Evento.Designer.cs">
+      <DependentUpon>Reporte-Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte-Expositor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte-Expositor.Designer.cs">
+      <DependentUpon>Reporte-Expositor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte-Panticipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte-Panticipante.Designer.cs">
+      <DependentUpon>Reporte-Panticipante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_de_Detalle_Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_de_Detalle_Evento.Designer.cs">
+      <DependentUpon>Reporte_de_Detalle_Evento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SIGEN_Conexion.cs" />
+    <EmbeddedResource Include="Buscar-Expositor.resx">
+      <DependentUpon>Buscar-Expositor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda-Evento.resx">
+      <DependentUpon>Busqueda-Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda-Participante.resx">
+      <DependentUpon>Busqueda-Participante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta-Evento.resx">
+      <DependentUpon>Consulta-Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta-Expositor.resx">
+      <DependentUpon>Consulta-Expositor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta-Participante.resx">
+      <DependentUpon>Consulta-Participante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Realizacion_Evento.resx">
+      <DependentUpon>Consulta_Realizacion_Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Descripsion-de-Envto.resx">
+      <DependentUpon>Descripsion-de-Envto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento-Evento.resx">
+      <DependentUpon>Mantenimiento-Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento-Expocitor.resx">
+      <DependentUpon>Mantenimiento-Expocitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento-Participante.resx">
+      <DependentUpon>Mantenimiento-Participante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Realizacion-de-Evento.resx">
+      <DependentUpon>Realizacion-de-Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro de Partipante.resx">
+      <DependentUpon>Registro de Partipante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro-Expositor.resx">
+      <DependentUpon>Registro-Expositor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1DetalleEvento.rdlc" />
+    <EmbeddedResource Include="Reporte-Evento.resx">
+      <DependentUpon>Reporte-Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte-Evento1.rdlc" />
+    <EmbeddedResource Include="Reporte-Expositor.rdlc" />
+    <EmbeddedResource Include="Reporte-Expositor.resx">
+      <DependentUpon>Reporte-Expositor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte-Panticipante.resx">
+      <DependentUpon>Reporte-Panticipante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_de_Detalle_Evento.resx">
+      <DependentUpon>Reporte_de_Detalle_Evento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportParticipante.rdlc" />
+    <None Include="DataSet1DetallesEvento.xsc">
+      <DependentUpon>DataSet1DetallesEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1DetallesEvento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1DetallesEvento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1DetallesEvento.xss">
+      <DependentUpon>DataSet1DetallesEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1Participante.xsc">
+      <DependentUpon>DataSet1Participante.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1Participante.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1Participante.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1Participante.xss">
+      <DependentUpon>DataSet1Participante.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEvento.xsc">
+      <DependentUpon>DataSetEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEvento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEvento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetEvento.xss">
+      <DependentUpon>DataSetEvento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetExpositor.xsc">
+      <DependentUpon>DataSetExpositor.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetExpositor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetExpositor.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetExpositor.xss">
+      <DependentUpon>DataSetExpositor.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

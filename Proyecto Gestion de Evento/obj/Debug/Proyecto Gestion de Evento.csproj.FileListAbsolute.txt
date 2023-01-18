@@ -1,0 +1,31 @@
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\bin\Debug\Proyecto Gestion de Evento.exe.config
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\bin\Debug\Database1.mdf
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\bin\Debug\Database1_log.ldf
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\bin\Debug\Proyecto Gestion de Evento.exe
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\bin\Debug\Proyecto Gestion de Evento.pdb
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto Gestion de Evento.csprojResolveAssemblyReference.cache
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Form1.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Properties.Resources.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto Gestion de Evento.csproj.GenerateResource.Cache
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto Gestion de Evento.exe
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto Gestion de Evento.pdb
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.RegistrodePartipante.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Registro_Expositor.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Mantenimiento_Participante.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Descripsion_de_Envto.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Mantenimiento_Expocitor.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Mantenimiento_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Consulta_Participante.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Reporte_Panticipante.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\RdlCompile.cache
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\RdlCompile.compiled
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Busqueda_Participante.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Buscar_Expositor.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Busqueda_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Consulta_Expositor.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Reporte_Expositor.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Consulta_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Reporte_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Realizacion_de_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Consulta_Realizacion_Evento.resources
+D:\algorimos\Programacion II\Proyecto Gestion de Evento\Proyecto Gestion de Evento\obj\Debug\Proyecto_Gestion_de_Evento.Reporte_de_Detalle_Evento.resources
